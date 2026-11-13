@@ -1,0 +1,39 @@
+# Dados e resultados científicos não autorizados
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.ods
+*.rds
+*.RDS
+*.RData
+*.rda
+*.Rhistory
+*.zip
+*.rar
+*.7z
+*.pdf
+
+# Credenciais/ambiente
+.env
+.env.*
+*.pem
+*.key
+.Rproj.user/
+.Ruserdata
+.Renviron
+.Rprofile
+
+# Saídas de análises (revisar e autorizar antes de publicar)
+Graficos_*/
+Resultados_*/
+Modelos_*/
+*.png
+*.jpg
+*.jpeg
+*.tiff
+
+# Temporários de sistema
+.DS_Store
+Thumbs.db
+~$*
